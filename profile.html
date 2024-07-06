@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="profile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script src="profile.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "Gy3fc1fALBIMN7L0k",
+  });
+})();
+</script>
+
+</head>
+<body>
+    
+    <div class="main-container">
+
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#">Profolio</a>
+                </div>
+                
+                <div class="navbar-items">
+                   
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#about"><li>About</li></a>
+                        <a href="#skills"><li>Skill</li></a>
+                        <a href="#project"><li>Projects</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                    
+                </div> 
+            </div>
+            
+            <div id="home">
+                <div class="home-left">
+                    <img src="images/ph.jpeg" alt="">
+                </div>
+
+                <div class="home-right">
+                        <h4 style="font-size: 25px;">H E L L O!<h4>
+                        <h3><span class="name"> I'm Rinshida</span></h3>
+                        <h4><span class="dev" style="font-size: 30px;">Full Stack developer</span></h4><br><br><br>
+                        <!-- <p style="font-family: monospace;">Hi, I'm Rinshida k, a passionate Full Stack Developer ,<br><br>Welcome to my profolio world</p><br><br> -->
+                       <div class="button1">
+                        <button class="hire"><a href="#contact">HIRE ME</a></button>
+                        <button class="works"><a href="#project">MY WORKS</a></button>
+                        </div>                        
+
+                </div>
+
+            </div>
+
+            <div id="about">
+                <div class="about-top">
+                    <h2> <span class="me">ABOUT</span> ME</h2>
+                    <p>I am a BTech Computer Science graduate with a strong foundation in software engineering and a specialization in full stack development. With expertise in both front-end and back-end technologies, I am proficient in designing and implementing scalable web applications. I have hands-on experience with modern frameworks and tools, and I am passionate about building user-friendly interfaces and robust server-side logic. My skills include HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I am a quick learner, an effective communicator, and a collaborative team player committed to delivering high-quality software solutions.</p>
+                </div>
+                <div class="icon">
+                    <a href="">
+                        <div class="inst">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </div>
+                    </a>
+                    <a href=" https://github.com/Rinshi2002">
+                        <div class="inst">
+                            <i class='bx bxl-github' ></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rinshida-k">
+                        <div class="inst">
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </div>
+                    </a>
+                </div>
+            
+            </div>
+
+            <div id="skills">
+                <div class="head">
+                    <h2>SKILLS</h2>
+                </div>
+                <div class="html">
+                    <a href="">
+                        <div class="card">
+                            <i class='bx bxl-html5'></i>
+                        </div>
+                    </a>
+                    <h3>HTML</h3>
+                    <p>HTML (HyperText Markup Language) is the fundamental language for creating and designing web pages. For web developers, the `lang` attribute is crucial as it specifies the language of the content, enhancing accessibility, search engine optimization, and translation accuracy. for Spanish, developers can ensure better user experiences for a global audience.</p>
+                </div>
+                <div class="css">
+                    <a href="">
+                        <div class="card">
+                            <i class='bx bxl-css3' ></i>
+                        </div>
+                    </a>
+                    <h3>CSS</h3>
+                    <p>CSS (Cascading Style Sheets) is a crucial language for any web developer's portfolio, as it defines the look and feel of a website. Mastery of CSS enables developers to create visually appealing, responsive, and user-friendly web pages. By controlling layout, color schemes, fonts, and overall design, CSS allows developers to enhance the user experience significantly.</p>
+                </div>
+                <div class="js">
+                    <a href="">
+                        <div class="card">
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                    </a>
+                    <h3>JAVASCRIPT</h3>
+                    <p>JavaScript is an essential programming language for web developers, playing a critical role in modern web development. As a dynamic, JavaScript enables developers to create interactive and engaging user experiences on the web. It is the backbone of front-end development, allowing for the manipulation of HTML and CSS to create dynamic web pages. </p>
+
+                </div>
+            </div>
+
+            <div id="project">
+                <div class="heading">
+                    <h2>PROJECTS</h2>
+                </div>
+                <div class="proj">
+                    <div class="cyber">
+                        <!-- <img src="images/cyber.jpeg" alt="Avatar" style="width:100%"> -->
+                        <div class="container3">
+                            <h4><b>DETECTION OF CYBERBULLYING COMMENTS</b></h4> <br>
+                            <p>The project involved leveraging ma
+                                chine learning algorithms, specifically Support Vector Machines(SVM) and Logistic Regression, for the detection and
+                                elimination of cyberbullying. Through careful implementation and fine-turning of these models. we aimed to identify
+                                and address harmful online behavior. contributing to the creation of safer digital world</p> 
+                                <button class="read"><a href="https://github.com/Rinshi2002/Detection-and-Elimination-of-cyberbullying-using-Machine-learning.git">Github Link</a></button>
+
+                         </div>
+                         
+                    </div>
+                    <div class="waste">
+                        <!-- <img src="images/waste.jpg" alt="Avatar" style="width:100%"> -->
+                        <div class="container3">
+                            <h4><b>SOLID WASTE GENERATION PREDICTION</b></h4> <br>
+                            <p>Utilized LSTM-LR
+                                models to predict future waste amounts. This approach allowed for accurate predictions over multiple times. Enhanc
+                                ing the ability to plan and manage municipal waste effectively. The LSTM-LR model demonstrated its proficiency
+                                in capturing temporal dependencies, contributing to more informed decision-making in the context or waste manage
+                                ment.</p> 
+                                <button class="read"><a href="https://github.com/Rinshi2002/Multi-step-forecasting-municipal-solid-waste-generation-using-LSTM-model.git">Github Link</a></button>
+                         </div>
+                         
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="contact">
+                <div class="cm">
+                    <h2>GET IN TOUCH</h2>
+                </div><br>
+                <div class="box">
+                    <div class="boxleft">
+                        <form >
+                            <!-- <input type="hidden" name="access_key" > -->
+                            <!-- <label for="">Full Name</label> -->
+                            <input type="text" id="name" placeholder="First Name ">
+                            <!-- <label for="">Email</label> -->
+                            <input type="mail" id="mail" placeholder="Mail">
+                            <!-- <label for="">Message</label> -->
+                            <input type="textarea"  id="message" placeholder="Message"><br><br>
+                            <button type="submit" onclick="sendMail()" >Contact Me</button>
+                        </form>
+                    </div>
+                    <div class="boxright">
+                        <div class="boxright-up">
+                            <h4>Contact</h4>
+                            <a  style="font-size: 15;text-decoration: none; color: black;" href="rinshidak2002@gmail.com">rinshidak2002gmail.com</a>
+                        </div>
+
+                        <div class="boxright-m">
+                            <h4>Phone</h4>
+                            <p>+91-9605695126</p>
+                        </div>
+
+                        <div class="boxright-m1">
+                            <h4>Address</h4>
+                            <p>Kanhirathil</p>
+                        </div>
+
+                        <div class="boxright-d">
+                            <a href=""><div class="ic"><i class='bx bxl-instagram-alt'></i></div></a>
+                            <a href="https://www.linkedin.com/in/rinshida-k"><div class="ic"><i class='bx bxl-linkedin-square' ></i></div></a>
+                            <a href="https://github.com/Rinshi2002"><div class="ic"><i class='bx bxl-github' ></i></div></a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+    </div>
+</body>
+</html>

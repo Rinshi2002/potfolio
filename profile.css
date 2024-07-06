@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width:100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    position: fixed;
+    z-index: 1;
+    /* opacity:0.5; */
+
+}
+
+.navbar .logo{
+    font-size: 27px;
+    color: black;
+    padding-bottom: 18px;
+    /* opacity:0.5; */
+}
+.logo a{
+    text-decoration:underline;
+    color: darkorange;
+}
+
+.navbar-items{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    align-items: center;
+    font-size: 15px;
+    /* opacity:0.5     ; */
+    
+
+
+}
+.navbar-items a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+    /* opacity:1; */
+
+    
+}
+/* .navbar-items a:hover{
+    /* background-color: white; */
+/* } */
+#home{
+    background-color: black;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100vh;
+
+}
+.home-left{
+    width: 50%;
+    height: 100px;
+    flex-direction: column;
+
+}
+.home-left img{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 100px;
+    opacity: 0.5;
+    box-shadow: 25px 25px 15px rgb(191, 110, 11);
+}
+.home-right{
+    width: 50%;
+    color: white;
+    
+    align-items: center;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 250px;
+    text-align: left;
+
+
+}
+
+.name{
+    font-weight: bolder;
+    color:darkorange ;
+    font-size: 60px;
+}
+.dev{
+    font-size: 40px;
+}
+
+.button1 button{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+  
+
+}
+
+.button1 .hire{
+    padding-right: 35px;
+    text-align: center;
+    
+}
+.button1 .works{
+    padding-left: 20px;
+}
+.button1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* button .hire, .works{
+    background-color: white;
+  color: black;
+  border: 2px solid #eae4e4;
+} */
+
+.button1 button:hover{
+    background-color: darkorange;
+    border: darkorange;
+    color: #000000;
+    box-shadow: 0 12px 16px 0 rgba(94, 94, 94, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#about{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(252, 140, 4);
+}
+#about h2{
+    color: black;
+    text-align: center;
+    padding: 100px;
+    font-size: 45px;
+}
+#about p{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+}
+.icon{
+    /* background-color: black; */
+    padding-top: 6%;
+    height: 60px;
+    width: 45%;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 450px;
+    /* margin-right: 25%; */
+    /* padding-right: 400px; */
+    
+}
+.icon a{
+    text-decoration: none;
+}
+.icon .inst{
+    margin-left: 125px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    color:darkorange;
+    background-color: black;
+    font-size: 28px;
+    
+}
+.icon .inst:hover{
+    background-color: white;
+    border: 3px solid white;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    width: 100;
+    padding: 100px 0px;
+    min-height: 400px;
+}
+#skills h2{
+    font-size: 40px;
+    color: darkorange;
+    text-align: center;
+    text-align: center;
+    padding-top: 300px;
+}
+.html, .css, .js{
+    height: 600px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+}
+
+#skills i{
+    text-decoration: none;
+    font-size: 80px;
+    text-align: center;
+    margin: 25px 0px;
+    color: darkorange;
+
+}
+#skills h3{
+    padding-bottom: 15px;
+}
+/* .head h2{
+    text-align: center;
+    padding-top: 300px;
+
+} */
+
+#project{
+    width: 100%;
+    height: 95vh;
+    background-color: darkorange;
+}
+.heading h2{
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    padding-top: 100px;
+}
+.proj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+/* .proj img{
+    height: 400px;
+    width: 400px;
+} */
+.container3{
+    /* align-items: center; */
+    text-align: center;
+}
+.container3 h4{
+    font-size: 18px;
+}
+.container3 p{
+    padding-top: 40px;
+    text-align: center;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+.container3 button{
+   background-color:darkorange;
+    border: 2px solid black;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+    z-index: 0;
+    
+
+}
+.container3 button:hover{
+    background-color: black;
+    
+    border: 2px solid black;
+    color: white;
+}
+
+.read a{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    background-color: darkorange;
+    width: 100%;
+    height: 90vh;
+}
+#contact h2{
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#contact .box{
+    padding-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid black;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+    
+}
+input{ 
+    width:250px; 
+    height: 7vh;
+    margin: 8px; 
+    border: none;
+    border-bottom: 2px solid black !important; 
+    background-color: rgba(0, 0, 0, 0); 
+    color: black; 
+    font-size: 15px;
+    /* font-weight: bold; */
+    opacity: 1 !important;
+    
+     
+} 
+form button{
+    background-color:darkorange;
+    border: 2px solid black;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+    z-index: 0;
+    
+    
+}
+form button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.boxright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.boxright-d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    
+}
+.boxright-d a{
+    text-decoration: none;
+    color: black;
+}
+.boxright p{
+    font-size: 15px;
+}
+::placeholder{
+    color: black !important;
+    opacity: 1;
+}
